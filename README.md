@@ -22,7 +22,6 @@ TDS IITM Project2: LLM-Based Assignment Solver
 ```
 assignment-solver/           # Root directory (renamed from Assignment_Solver)
 ├── requirements.txt
-├── README.md
 │
 └── solver/
     └── tests/

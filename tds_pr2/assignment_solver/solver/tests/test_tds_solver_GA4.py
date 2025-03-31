@@ -220,7 +220,7 @@ def test_create_scheduled_github_action():
     Create a scheduled GitHub action that runs daily and adds a commit to your repository. The workflow should:
     
     - Use schedule with cron syntax to run once per day (must use specific hours/minutes, not wildcards)
-    - Include a step with your email 23f3000756@ds.study.iitm.ac.in in its name
+    - Include a step with your email 22f3002577@ds.study.iitm.ac.in in its name
     - Create a commit in each run
     - Be located in .github/workflows/ directory
     

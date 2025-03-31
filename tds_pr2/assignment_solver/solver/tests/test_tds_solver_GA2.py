@@ -100,7 +100,7 @@ def test_github_pages():
     
     question = """Host a website using GitHub Pages. Publish a page that showcases your work. 
     Ensure that your email address 23f3000756@ds.study.iitm.ac.in is in the page's HTML.
-    Wrap your email address inside a: <!--email_off-->23f3000756@ds.study.iitm.ac.in<!--/email_off-->
+    Wrap your email address inside a: <!--email_off-->22f3002577@ds.study.iitm.ac.in<!--/email_off-->
     What is the GitHub Pages URL?"""
     
     # Call API
@@ -118,7 +118,7 @@ def test_google_colab():
     """
     print("\n===== Testing Google Colab (Q4) =====")
     
-    question = """Run this program on Google Colab, allowing all required access to your email ID: 23f3000756@ds.study.iitm.ac.in.
+    question = """Run this program on Google Colab, allowing all required access to your email ID: 23f3002577@ds.study.iitm.ac.in.
 
     import hashlib
     import requests

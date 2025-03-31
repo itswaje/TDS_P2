@@ -163,8 +163,8 @@ def test_llm_embeddings():
     question = """SecurePay, a leading fintech startup, has implemented an innovative feature to detect and prevent fraudulent activities in real time.
     Your task is to write the JSON body for a POST request that will be sent to the OpenAI API endpoint to obtain the text embedding for the 2 given personalized transaction verification messages below. This will be sent to the endpoint https://api.openai.com/v1/embeddings.
     
-    Message 1: Dear user, please verify your transaction code 82250 sent to 23f3000756@ds.study.iitm.ac.in
-    Message 2: Dear user, please verify your transaction code 3017 sent to 23f3000756@ds.study.iitm.ac.in"""
+    Message 1: Dear user, please verify your transaction code 82250 sent to 22f3002577@ds.study.iitm.ac.in
+    Message 2: Dear user, please verify your transaction code 3017 sent to 22f3002577@ds.study.iitm.ac.in"""
     
     # Call API
     result = call_api(question)

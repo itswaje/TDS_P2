@@ -78,7 +78,7 @@ def test_api_request():
     """
     print("\n===== Testing API Request (Q2) =====")
     
-    question = """Send a HTTPS request to https://httpbin.org/get with the URL encoded parameter email set to 23f3000756@ds.study.iitm.ac.in. What is the JSON output of the command?"""
+    question = """Send a HTTPS request to https://httpbin.org/get with the URL encoded parameter email set to 22f30002577@ds.study.iitm.ac.in. What is the JSON output of the command?"""
     
     # Call API
     result = call_api(question)
